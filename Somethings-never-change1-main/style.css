@@ -54,6 +54,12 @@ header p {
     color: rgb(240, 166, 240);
 
 }
+#segundo-section img{
+    transition: 0.3s ease-in-out;
+}
+#segundo-section img:hover{
+    transform: scale(1.2);
+}
 header h1{
     font-weight: 700;
     line-height: 5.4rem;
