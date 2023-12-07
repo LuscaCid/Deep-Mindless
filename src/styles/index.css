@@ -65,7 +65,7 @@ body{
     border-bottom: 1px solid white;
 }
 section{
-    margin: 2rem 4rem;
+    margin: 2rem 14rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
