@@ -20,4 +20,8 @@ body{
 main header{
     width: 100%;
     background-color: var(--second-color) ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3rem;
 }
