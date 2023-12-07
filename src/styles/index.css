@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins, sans-serif';
+    font-family: 'Poppins', sans-serif;
 }
 :root{
     
@@ -10,9 +10,11 @@
     --primary-color : #32AAF0;
     --header-color : #577A8F;
     --second-color : #4792BC;
+    --bg-color : hsl(0, 0%, 83%);
     
 }
 body{
+    background-color: var(--bg-color);
     width: 100%;
     height: 100dvh;
     display: grid;
@@ -26,7 +28,7 @@ body{
 }
 .app header{
     width: 100%;
-    background-color: var(--header-color) ;
+    background-color: var(--primary-color) ;
     display: flex;
     justify-content: space-between;
     align-items: center;
