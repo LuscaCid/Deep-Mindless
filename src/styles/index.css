@@ -39,7 +39,16 @@ body{
     align-items: center;
     gap: 2rem;
     padding: 1.4rem 0;
-
+    list-style: none;
+}
+.app header li{
+    font-size: 1.6rem;
+    color: #577A8F;
+    transition: background 0.4s, color 0.4s ;
+}
+.app header li:hover{
+    background: white;
+    color: black;
 }
 .app header h1 {
     padding: 1.4rem 0;
