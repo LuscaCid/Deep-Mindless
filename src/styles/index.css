@@ -52,7 +52,7 @@ body{
     color: #577A8F;
     transition: background 0.4s, color 0.4s ;
     cursor: pointer;
-    
+
 }
 .app header li:hover{
     background: white;
@@ -63,4 +63,10 @@ body{
     font-size: 2.2rem;
     color: white;
     border-bottom: 1px solid white;
+}
+section{
+    margin: 2rem 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
