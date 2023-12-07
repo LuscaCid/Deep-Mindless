@@ -4,10 +4,12 @@
     box-sizing: border-box;
 }
 :root{
+    font-family: 'Poppins, sans-serif';
     font-size: 62.5%;
-    --primary-color : #32AAF0
-    --header-color : #577A8F
-    --second-color : #4792BC
+    --primary-color : #32AAF0;
+    --header-color : #577A8F;
+    --second-color : #4792BC;
+    
 }
 body{
     margin: 0;
@@ -17,11 +19,21 @@ body{
     height: 100dvh;
 
 }
-main header{
+.app header{
     width: 100%;
     background-color: var(--second-color) ;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 3rem;
+}
+.app header ul{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 1.4rem 0;
+}
+.app header h1 {
+    padding: 1.4rem 0;
+    font-size: ;
 }
