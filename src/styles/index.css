@@ -52,7 +52,7 @@ body{
     color: #577A8F;
     transition: background 0.4s, color 0.4s ;
     cursor: pointer;
-
+    text-align: center;
 }
 .app header li:hover{
     background: white;
